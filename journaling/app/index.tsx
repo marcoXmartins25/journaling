@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={{ marginBottom: 20 }}>Primeiro teste de react native</Text>
-      <Button title="Press me" onPress={() => alert("Button pressed!")} />
+      <Button title="Seja feliz" onPress={() => alert("Você aceitou ser feliz")} />
     </View>
   );
 }
